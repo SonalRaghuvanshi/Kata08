@@ -1,0 +1,16 @@
+package kata08Extendible;
+
+public class MainExtendible {
+
+	public static void main(String[] args) throws Exception {
+
+		WordProcessingExtendible wordProcess = new WordProcessingExtendible();
+		String filePath = "C:\\Users\\sonal\\Downloads\\wordlist1.txt";
+        int maxNumberOfWordLetters = 6;
+        ExtractionWordsFile extractionWordsFile = new ExtractionWordsFile(filePath, maxNumberOfWordLetters);
+        long startTime = System.currentTimeMillis();
+        
+        
+	}
+
+}

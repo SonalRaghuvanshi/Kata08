@@ -1,0 +1,15 @@
+package kata08Extendible;
+
+import java.io.File;
+import java.util.Scanner;
+
+public class MainExtendible {
+
+	public static void main(String[] args) {
+
+		Scanner s = new Scanner(new File("C:\\Users\\sonal\\Downloads\\wordlist1.txt"));
+        int maxNumberOfWordLetters = 6;
+        
+	}
+
+}

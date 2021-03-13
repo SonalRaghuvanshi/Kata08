@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package kata08Readable;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+
+/**
+ * @author sonal
+ *
+ */
+public class WordProcessing {
+
+	private Map<String,String> wordMap = new TreeMap<>();
+	private ArrayList<String> sixCount = new ArrayList<>();
+	private Map<String,List<String>> resultMap = new TreeMap<>();
+	
+	public void wordLoading(List<String> words) {
+		for(String word : words) {
+			if (word.length() == 6) {
+				sixCount.add(word);
+				wordMap.put(word, word);
+			} else {
+				wordMap.put(word, word);
+			}
+		}
+	}
+}
